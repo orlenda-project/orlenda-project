@@ -120,3 +120,8 @@ body {
   transition: box-shadow 0.2 ease;
 }
 
+.step h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+

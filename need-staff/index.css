@@ -89,27 +89,27 @@ body {
 }
 
 .card .main-content .staff .cards-staff.staff2 {
-  background-image: url("/assets/usher-event.jpg");
+  background-image: url("./assets/usher-event.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff3 {
-  background-image: url("/assets/host-event.jpg");
+  background-image: url("./assets/host-event.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff4 {
-  background-image: url("/assets/figuran.jpg");
+  background-image: url("./assets/figuran.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff5 {
-  background-image: url("/assets/wedding-singer.jpg");
+  background-image: url("./assets/wedding-singer.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff6 {
-  background-image: url("/assets/team-leader.jpg");
+  background-image: url("./assets/team-leader.jpg");
   filter: brightness(60%);
 }
 
@@ -124,4 +124,3 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-

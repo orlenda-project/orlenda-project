@@ -18,3 +18,16 @@ body {
   padding-top: center;
 }
 
+.container h1 {
+  color: white;
+  padding-top: 10%;
+}
+
+.container p {
+  color: white;
+}
+
+.container button {
+  background-color: rgb(255, 123, 0);
+}
+

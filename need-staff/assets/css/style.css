@@ -11,7 +11,7 @@ body {
 
 .jumbotron {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./assets/usher.jpg");
+    url("../img/usher.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 70vh;
@@ -33,7 +33,7 @@ body {
 
 .main {
   min-height: 50vh;
-  background-image: url("./assets/orange-splash2.png");
+  background-image: url("../img/orange-splash2.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -84,32 +84,32 @@ body {
 }
 
 .card .main-content .staff .cards-staff.staff1 {
-  background-image: url("./assets/img/spg-event.jpg");
+  background-image: url("../img/spg-event.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff2 {
-  background-image: url("./assets/img/usher-event.jpg");
+  background-image: url("../img/usher-event.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff3 {
-  background-image: url("./assets/img/host-event.jpg");
+  background-image: url("../img/host-event.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff4 {
-  background-image: url("./assets/img/figuran.jpg");
+  background-image: url("../img/figuran.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff5 {
-  background-image: url("./assets/img/wedding-singer.jpg");
+  background-image: url("../img/wedding-singer.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff6 {
-  background-image: url("./assets/img/team-leader.jpg");
+  background-image: url("../img/team-leader.jpg");
   filter: brightness(60%);
 }
 

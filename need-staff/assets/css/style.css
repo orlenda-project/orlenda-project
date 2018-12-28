@@ -121,6 +121,26 @@ body {
 }
 
 .step h2 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+.stepper {
+  min-height: 60vh;
+  background-image: url("../img/how-to-join.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position-y: -25px;
+  background-position-x: 100%;
+}
+.stepper .line {
+  width: 2px;
+  background-color: lightgrey !important;
+}
+.stepper .lead {
+  font-size: 1.1rem;
+}
+
+.rounded-circle, .py-2, .px-3{
+  background-color: #ff5722;
 }

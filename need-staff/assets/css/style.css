@@ -11,7 +11,7 @@ body {
 
 .jumbotron {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./assets/usher.jpg");
+    url("../img/usher.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 70vh;
@@ -33,7 +33,7 @@ body {
 
 .main {
   min-height: 50vh;
-  background-image: url("./assets/orange-splash2.png");
+  background-image: url("../img/orange-splash2.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -84,32 +84,32 @@ body {
 }
 
 .card .main-content .staff .cards-staff.staff1 {
-  background-image: url("./assets/spg-event.jpg");
+  background-image: url("../img/spg-event.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff2 {
-  background-image: url("./assets/usher-event.jpg");
+  background-image: url("../img/usher-event.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff3 {
-  background-image: url("./assets/host-event.jpg");
+  background-image: url("../img/host-event.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff4 {
-  background-image: url("./assets/figuran.jpg");
+  background-image: url("../img/figuran.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff5 {
-  background-image: url("./assets/wedding-singer.jpg");
+  background-image: url("../img/wedding-singer.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff6 {
-  background-image: url("./assets/team-leader.jpg");
+  background-image: url("../img/team-leader.jpg");
   filter: brightness(60%);
 }
 
@@ -121,6 +121,54 @@ body {
 }
 
 .step h2 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 10px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-bottom: 10px;
+}
+
+.stepper {
+  min-height: 60vh;
+  background-image: url("../img/how-to-join.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position-y: -25px;
+  background-position-x: 100%;
+  padding-bottom: 20px;
+}
+.stepper .line {
+  width: 2px;
+  background-color: lightgrey !important;
+}
+.stepper .lead {
+  font-size: 1.1rem;
+}
+
+.rounded-circle, .py-2, .px-3{
+  background-color: #ff5722;
+}
+
+.footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/model.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.footer h5{
+  color: white;
+}
+
+.footer p{
+  color: white;
+}
+
+.list-unstyled a {
+  color: #ff5722;
+}
+
+.footer-copyright {
+  padding: 50px;
+  color: white;
 }

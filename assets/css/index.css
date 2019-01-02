@@ -1,53 +1,99 @@
 body {
-  display: flex;
-  justify-content: center;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
 }
 
-.navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 1080px;
-  border-bottom: solid 2px orangered;
-  background-color: #ff7400;
-  height: 90px;
+.navbar {
+  background-color: rgb(255, 123, 0);
 }
 
-.navigation .navigation-menu-left {
-  list-style: none;
-  margin: 20px;
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  width: 540px;
-}
-
-.navigation .navigation-menu-right {
-  list-style: none;
-  margin: 20px;
-  padding: 10px;
-  display: flex;
-  justify-content: flex-end;
-  width: 540px;
-  height: 60px;
-}
-
-.navigation .menu-button {
-  text-decoration: none;
+.container h1 {
   color: white;
-  font-weight: 700;
-  font-size: 30px;
+  padding-top: 10%;
 }
 
-.navigation .navigation-menu-right .menu-button-right {
-  text-decoration: none;
-  padding: 10px;
-  margin-left: 10px;
-  color: #ff7300;
-  font-weight: 700;
-  font-size: 30px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  border: solid 3px #ff5e00;
-  line-height: 0.5;
+.container p {
+  color: white;
+}
+
+.container button {
+  background-color: rgb(255, 123, 0);
+}
+
+.main {
+  min-height: 50vh;
+  background-image: url("../img/orange-splash2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main h2 {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.row img {
+  width: 75px;
+  height: 75px;
+  margin-left: 50%;
+  padding-bottom: 10px;
+}
+
+.row p {
+  margin-right: 25%;
+}
+
+.step h2 {
+  padding-top: 10px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-bottom: 10px;
+}
+
+.stepper {
+  min-height: 60vh;
+  background-image: url("../img/how-to-join.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position-y: -25px;
+  background-position-x: 100%;
+  padding-bottom: 20px;
+}
+.stepper .line {
+  width: 2px;
+  background-color: lightgrey !important;
+}
+.stepper .lead {
+  font-size: 1.1rem;
+}
+
+.rounded-circle, .py-2, .px-3{
+  background-color: #ff5722;
+}
+
+.footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/need-staff/assets/img/model.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.footer h5{
+  color: white;
+}
+
+.footer p{
+  color: white;
+}
+
+.list-unstyled a {
+  color: #ff5722;
+}
+
+.footer-copyright {
+  padding: 50px;
+  color: white;
 }

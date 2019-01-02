@@ -9,6 +9,15 @@ body {
   background-color: rgb(255, 123, 0);
 }
 
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/need-staff/assets/img/usher.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  padding-top: center;
+}
+
 .container h1 {
   color: white;
   padding-top: 10%;
@@ -43,6 +52,72 @@ body {
 
 .row p {
   margin-right: 25%;
+}
+
+.card h2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.card {
+  border: 0px;
+  background-color: rgb(252, 245, 245);
+  padding-bottom: 5%;
+}
+
+.card .main-content .staff .cards-staff {
+  padding: 10px 5px;
+  box-shadow: 5px 5px 11px 0px rgba(40, 40, 40, 0.5);
+  transition: all 0.5s ease;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -40px;
+  border-radius: 8px;
+  color: #fff;
+  border: 0;
+}
+
+.card .main-content .staff .cards-staff h2 {
+  margin-top: -10px;
+  color: fixed;
+}
+
+.card .main-content .staff .cards-staff.staff1 {
+  background-image: url("../img/spg-event.jpg");
+  filter: brightness(60%);
+}
+
+.card .main-content .staff .cards-staff.staff2 {
+  background-image: url("../img/usher-event.jpg");
+  filter: brightness(60%);
+}
+
+.card .main-content .staff .cards-staff.staff3 {
+  background-image: url("../img/host-event.jpg");
+  filter: brightness(60%);
+}
+
+.card .main-content .staff .cards-staff.staff4 {
+  background-image: url("../img/figuran.jpg");
+  filter: brightness(60%);
+}
+
+.card .main-content .staff .cards-staff.staff5 {
+  background-image: url("../img/wedding-singer.jpg");
+  filter: brightness(60%);
+}
+
+.card .main-content .staff .cards-staff.staff6 {
+  background-image: url("../img/team-leader.jpg");
+  filter: brightness(60%);
+}
+
+.card .main-content .staff .cards-staff:hover {
+  filter: brightness(100%);
+  outline: 5px solid #ff5722;
+  outline-offset: -5px;
+  transition: box-shadow 0.2 ease;
 }
 
 .step h2 {

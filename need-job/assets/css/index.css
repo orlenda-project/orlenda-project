@@ -1,0 +1,165 @@
+body {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+.navbar {
+  background-color: rgb(255, 123, 0);
+}
+
+.navbar .container .btn .btn-dark {
+  margin: 0px 20px;
+}
+
+.promotion-banner {
+  background-image: url(/need-job/assets/img/prepare-job-search.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin: 20px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  max-width: 1440px;
+  background-size: cover;
+}
+
+.promotion-banner .banner {
+  background-repeat: no-repeat;
+  margin: 20px;
+  padding: 10px;
+  position: center;
+}
+
+.promotion-banner .banner h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.search-panel {
+  background: rgb(255, 123, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.search-panel label {
+  color: white;
+}
+
+.search-panel select {
+  color: rgb(190, 51, 0);
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 8px;
+  margin: 10px;
+}
+
+.search-panel option {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.search-panel .location {
+  margin-top: 0px;
+  line-height: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: rgb(190, 51, 0);
+}
+
+.search-panel .salary-range {
+  margin-top: 0px;
+  line-height: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: rgb(190, 51, 0);
+}
+
+.job-list {
+  background: rgba(0, 0, 0, 0.8);
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.job-list .job1 {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 60px 20%;
+  border-bottom: solid 2px rgb(255, 123, 0);
+  background-image: url(/need-job/assets/img/spgbanner.jpg);
+  background-position: 0px -50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.job-list .job2 {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 60px 20%;
+  border-bottom: solid 2px rgb(255, 123, 0);
+  background-image: url(/need-job/assets/img/usher.jpg);
+  background-position: 0px -100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.job-list .job3 {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 60px 20%;
+  border-bottom: solid 2px rgb(255, 123, 0);
+  background-image: url(/need-job/assets/img/wedding-singer.jpg);
+  background-position: 0px -160px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.job-list h5 {
+  font-weight: 900;
+  font-size: 100px;
+}
+
+.job-list img {
+  width: 400px;
+  height: 400px;
+}
+
+.footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/model.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer h5 {
+  color: white;
+}
+
+.footer p {
+  color: white;
+}
+
+.list-unstyled a {
+  color: #ff5722;
+}
+
+.footer-copyright {
+  padding: 50px;
+  color: white;
+}

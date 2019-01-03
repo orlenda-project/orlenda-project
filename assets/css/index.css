@@ -54,6 +54,64 @@ body {
   margin-right: 25%;
 }
 
+.rounded-circle, .py-2, .px-3{
+  background-color: #ff5722;
+}
+
+.footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/need-staff/assets/img/model.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.footer h5{
+  color: white;
+}
+
+.footer p{
+  color: white;
+}
+
+.list-unstyled a {
+  color: #ff5722;
+}
+
+.footer-copyright {
+  padding: 50px;
+  color: white;
+}
+
+.about-banner{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  color: #000000;
+}
+
+.about-banner .about-banner-content{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.about-banner .about-banner-content .about-banner-decsription{
+  margin : 10px 40px 10px 10px;
+}
+
+.about-banner .about-banner-content .about-banner-decsription p{
+  color: #000000;
+}
+
+.about-banner .about-banner-content .about-banner-image{
+  background-image: url("/assets/images/spg-about-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 526px 330px;
+  width: 530px;
+  height: 350px;
+}
+
 .card h2 {
   margin-top: 20px;
   margin-bottom: 30px;
@@ -84,32 +142,32 @@ body {
 }
 
 .card .main-content .staff .cards-staff.staff1 {
-  background-image: url("../img/spg-event.jpg");
+  background-image: url("/need-staff/assets/img/spg-event.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff2 {
-  background-image: url("../img/usher-event.jpg");
+  background-image: url("/need-staff/assets/img/usher-event.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff3 {
-  background-image: url("../img/host-event.jpg");
+  background-image: url("/need-staff/assets/img/host-event.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff4 {
-  background-image: url("../img/figuran.jpg");
+  background-image: url("/need-staff/assets/img/figuran.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff5 {
-  background-image: url("../img/wedding-singer.jpg");
+  background-image: url("/need-staff/assets/img/wedding-singer.jpg");
   filter: brightness(60%);
 }
 
 .card .main-content .staff .cards-staff.staff6 {
-  background-image: url("../img/team-leader.jpg");
+  background-image: url("/need-staff/assets/img/team-leader.jpg");
   filter: brightness(60%);
 }
 
@@ -118,57 +176,4 @@ body {
   outline: 5px solid #ff5722;
   outline-offset: -5px;
   transition: box-shadow 0.2 ease;
-}
-
-.step h2 {
-  padding-top: 10px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  margin-bottom: 10px;
-}
-
-.stepper {
-  min-height: 60vh;
-  background-image: url("../img/how-to-join.png");
-  background-repeat: no-repeat;
-  background-size: 40%;
-  background-position-y: -25px;
-  background-position-x: 100%;
-  padding-bottom: 20px;
-}
-.stepper .line {
-  width: 2px;
-  background-color: lightgrey !important;
-}
-.stepper .lead {
-  font-size: 1.1rem;
-}
-
-.rounded-circle, .py-2, .px-3{
-  background-color: #ff5722;
-}
-
-.footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("/need-staff/assets/img/model.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-}
-
-.footer h5{
-  color: white;
-}
-
-.footer p{
-  color: white;
-}
-
-.list-unstyled a {
-  color: #ff5722;
-}
-
-.footer-copyright {
-  padding: 50px;
-  color: white;
 }
